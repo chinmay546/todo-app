@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./todo.css" >
+    <title></title>
+</head>
+<body>
+    <div class="title">
+        <div class="bg">
+        Todo - Application
+        </div>
+        
+    </div>
+    
+    <div class="container">
+  <div class="row">
+    <div class="col">
+     <div class="jumbotron">
+         <h2>Searching Todo</h2>
+  <input id="searchTodo" class="form-control form-control-lg" style="width: 15em;" type="text" placeholder="Search Todo">
+  <div class="custom-control custom-checkbox my-1 mr-sm-2">
+    <input type="checkbox" class="custom-control-input" id="customControlInline">
+    <label class="custom-control-label" for="customControlInline">Completed Todo
+    </label>
+  </div>
+  
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Todos</th>
+    </tr>
+  </thead>
+<tbody class="tab">
+
+</tbody>
+</table>
+     </div>
+
+    </div>
+    <div class="col">
+    
+<div class="jumbotron">
+
+<h2>
+    Adding New Todo
+</h2>
+<form id="newform">
+
+     <input  class="form-control form-control-lg" style="width: 15em;" type="text" placeholder="Add New Todo.." name="addTodo">
+  <div class="custom-control custom-checkbox my-1 mr-sm-2">
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="isChecked" >
+  <label class="form-check-label" for="defaultCheck1">
+   Completed
+  </label>
+</div>
+  </div>
+  <button class="btn btn-outline-success">Add Todo</button>
+</form>
+
+<h2 style="padding-top: 0.3em;" >
+   Search Result Summary 
+</h2>
+    <div id="count-1">
+       
+
+    </div>
+      <div id="count-2">
+       
+
+    </div>
+      <div id="count-3">
+       
+
+    </div>
+</div>
+    </div>
+  </div>
+    </div>
+ 
+</body>
+<script src="./todos.js">
+</script>
+</html>
+
+<!-- 
+create a checkbox and setup event listener 
+when checkbox is checked , only completed todos will be displayed  -->

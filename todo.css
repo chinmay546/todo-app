@@ -1,0 +1,33 @@
+.tab {
+    border-bottom: 3px solid #dee2e6;
+        vertical-align: bottom;
+display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.jumbotron {
+   padding-top: 2em;
+}
+
+.title {
+    font-size: 3em;
+   align-items: center;
+    padding: 1em;
+    margin: 20px;
+   
+}
+
+.bg {
+   text-align: center;
+ 
+ 
+     margin: 0;
+  position: absolute;
+  
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+}
