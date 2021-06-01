@@ -95,7 +95,7 @@ document.querySelector('#newform').addEventListener('submit' , function(event){
     
    })
    renderTodos( todo  , filters)
-   event.target.elements.newTodo.value = ""  
+   event.target.elements.addTodo.value = ""  
 } )
 
 document.querySelector('#customControlInline').addEventListener('change' , function(event) {
